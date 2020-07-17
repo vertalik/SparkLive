@@ -14,10 +14,9 @@ header{
 }
 
 .logo__title-sub {
-  color: red;
+  color: $logo-title-sub-color;
   font-family: 'Anisette';
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 0.8rem;
 }
 
@@ -38,7 +37,7 @@ header{
 }
 
 .company-description__sub-title{
-  color: #7f7f7f;
+  color: $sub-text-color;
   font-size: 0.875rem;
   font-family: 'Anisette';
 }
@@ -46,7 +45,7 @@ header{
 .separator {
   content: '';
   display: block;
-  background-color: #424242;
+  background-color: $separator-color;
   width: 2px;
   height: 40px;
   margin: 0px 16px;
