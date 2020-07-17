@@ -1,0 +1,45 @@
+.main-description {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 48px;
+  align-items: flex-end;
+}
+
+.main-description__icon {
+  background-color: #0071bc;
+  border-radius: 3px;
+  width: 66px;
+  height: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.313rem;
+  margin-left: 15px;
+}
+
+.main-description__icon-text {
+  color: #fff;
+  font-family: 'Heebo-Black';
+  font-weight: 900;
+}
+
+.main-description__text {
+  text-align: end;
+}
+
+.main-description__title {
+  font-family: 'Heebo-Medium';
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main-description__time, .main-description__comments {
+  font-family: 'Heebo-Regular';
+  font-size: 1.125rem;
+}
+
+.main-description__time {
+  padding: 9px 0px 13px 0px;
+  font-size: 0.875rem;
+}

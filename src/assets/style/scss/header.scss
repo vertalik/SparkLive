@@ -1,0 +1,79 @@
+header{
+  background-color: #000;
+  color: #fff;
+}
+
+.logo__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__title {
+  font-size: 2.625rem;
+  font-family: 'Anisette';
+}
+
+.logo__title-sub {
+  color: red;
+  font-family: 'Anisette';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.logo__english-content{
+  display: flex;
+  align-items: center;
+}
+
+.company-name{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.company-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-description__sub-title{
+  color: #7f7f7f;
+  font-size: 0.875rem;
+  font-family: 'Anisette';
+}
+
+.separator {
+  content: '';
+  display: block;
+  background-color: #424242;
+  width: 2px;
+  height: 40px;
+  margin: 0px 16px;
+}
+
+.logo__hebrew-content {
+  @extend .logo__english-content;
+}
+
+.logo__title__hebrew{
+  @extend .logo__title;
+  font-family: 'Heebo-Light';
+}
+
+.logo__title-sub__hebrew {
+  @extend .logo__title-sub;
+  font-family: 'Heebo-Black';
+  font-size: 1.5rem;
+  transform: translate(6px,-9px);
+}
+
+.hebrew-name{
+  align-items: flex-start;
+}
+
+.company-description__sub-title__hebrew {
+  @extend .company-description__sub-title;
+  font-size: 1.125rem;
+  text-align: end;
+}

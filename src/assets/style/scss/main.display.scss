@@ -1,0 +1,37 @@
+.display {
+  height: 466px;
+  display: flex;
+  padding-top: 20px;
+}
+
+.display__left-side{
+  height: 100%;
+  width: 30%;
+  background-color: #fff;
+}
+
+.display__right-side {
+  height: 100%;
+  width: 70%;
+  background-color: #000;
+}
+
+.display__monitor__footer {
+  background-color: #3fa9f5;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.display__monitor {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.display__monitor__footer__text {
+  font-family: 'Heebo-Regular';
+  font-size: 1.125rem;
+  color: #fff;
+  padding: 10px 0px;
+}

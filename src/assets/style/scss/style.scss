@@ -1,10 +1,7 @@
 @import 'node_modules/css-reset-and-normalize/scss/reset-and-normalize.scss';
-
-p {
-  color: blue;
-}
-
-div {
-  display: flex;
-  width: 100%;
-}
+@import './fonts.scss';
+@import './global.scss';
+@import './header.scss';
+@import './main.description.scss';
+@import './main.display.scss';
+@import './footer.scss';

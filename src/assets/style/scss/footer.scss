@@ -1,0 +1,21 @@
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 0px 55px 0px;
+}
+
+.social__icon {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.other__icon:last-child {
+  margin-right: 0px;
+  
+}
+
+.other__icon {
+ @extend .social__icon;
+}
+
